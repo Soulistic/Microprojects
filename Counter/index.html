@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+        <!-- box -->
+        <div class="w-screen h-screen bg-amber-600 flex flex-col items-center justify-center">
+            <!-- incdec -->
+            <div class="bg-white flex text-sm rounded-sm gap-8 p-3 px-5">
+                <!-- minusiconbutton -->
+                <button onclick="decrement()" class="border-r-2 border-black pr-5">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+                <!-- number display -->
+                <div id="display" class="font-bold">
+                    0
+                </div>
+                <!-- plusiconbutton -->
+                <button onclick="increment()" class="border-l-2 border-black pl-5">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
