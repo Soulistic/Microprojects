@@ -1,6 +1,6 @@
 # Microprojects
 Contains all my microproject of Web Developements
-1. A parallax Website; pparallaxx.netlify.app
+1. A parallax Website; https://pparallaxx.netlify.app/
 2. A photo gallery
 3. E-commerce_Chair_add_to_cart
 4. Counter
